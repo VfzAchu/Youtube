@@ -47,6 +47,7 @@ body{
     background-color: #ffffff;
     height: 40px;
     width: 40px;
+    margin-left: 10px;
 }
 #button3
 {
@@ -62,10 +63,15 @@ body{
     padding: 10px;
     height: 20px;
 }
-i
+#button1 i
 {
-    display:inline-block;
-    font-size: 18px;
-    margin-right: 5px;
-    color: #000000;
+    align-content: justify;
+    margin-right: 0px;
+    margin-top: 5px;
+    border: #000000;
+}
+#button2 i
+{
+    margin-top: 5px;
+    margin-left: 0px;
 }
