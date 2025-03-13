@@ -31,9 +31,9 @@ body{
     color: #000000;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    border-color: #ffffff;
     background-color: #ffffff;
-    height: 40px;
+    border: none;
+    height: 41px;
 }
 #button1:hover
 {
@@ -49,7 +49,8 @@ body{
 {
     color: #000000;
     border-radius: 350px;
-    border-color: #ffffff;
+    border:none;
+    outline: none;
     background-color: #ffffff;
     height: 40px;
     width: 40px;
@@ -69,6 +70,8 @@ body{
     font-size: medium;
     margin-left: 50px;
     cursor: pointer;
+    border:none;
+    background-color: #ffffff;
 }
 #button4{
     margin-left: 60px;
@@ -76,7 +79,8 @@ body{
     width: 40px;
     height: 40px;
     font-size: medium;
-    border-color: #ffffff;
+    border:none;
+    outline: none;
     cursor: pointer;
 }
 #button4 i{
@@ -91,7 +95,8 @@ body{
     width: 40px;
     height: 40px;
     font-size: medium;
-    border-color: #ffffff;
+    border:none;
+    outline: none;
     cursor: pointer;
 }
 #button5 i{
@@ -103,8 +108,9 @@ body{
 {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    border: #f0f0f0;
     padding: 10px;
+    border: none;
+
     height: 20px;
 }
 i{
