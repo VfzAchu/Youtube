@@ -177,12 +177,12 @@ i{
 }
 .center-buttons {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    grid-template-rows: repeat(2, auto); /* 2 rows */
-    gap: 15px; /* Space between buttons */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px;
     justify-content: center;
     align-items: center;
-    margin-top: 50px; /* Adjust position below the search bar */
+    margin-top: 50px;
     position: absolute; 
     left: 57%; 
     transform: translateX(-50%);
